@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pankaj Kumar Kamat | Full Stack Developer</title>
+    <meta name="keywords"
+        content="Pankaj Kumar Kamat, Web Developer, Frontend Developer, Full Stack Developer, MERN Stack Developer, Portfolio, Frontend, JavaScript, React, Designer, pankaj kr, pankaj kumar, kamat ji pankaj, pankaj gandu" />
+    <meta name="description"
+        content="A skilled Full Stack Developer specializing in the MERN stack. Explore my work for a showcase of dynamic web app." />
+    <meta name="author" content="Pankaj Kumar Kamat" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://pankajkr.in/" />
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <!-- <meta property="og:title" content="Portfolio | Pankaj Kumar Kamat" />
+    <meta property="og:description"
+        content="Explore the portfolio of Pankaj Kumar Kamat – Web Developer, Designer, and Tech Enthusiast." />
+    <meta property="og:image" content="https://my-portfolio-inky-pi-70.vercel.app/Image/og_image_new.png" />
+    <meta property="og:image:url" content="https://my-portfolio-inky-pi-70.vercel.app/Image/og_image_new.png" />
+    <meta property="og:image:secure_url" content="https://my-portfolio-inky-pi-70.vercel.app/Image/og_image_new.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt"
+        content="Portfolio preview of Pankaj Kumar Kamat - Web Developer, Designer, and Tech Enthusiast" />
+    <meta property="og:url" content="https://pankajkr.in/" />
+    <meta property="og:type" content="website" /> -->
+
+    <!-- Twitter Card -->
+    <!-- <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Portfolio | Pankaj Kumar Kamat" />
+    <meta name="twitter:description"
+        content="Explore the portfolio of Pankaj Kumar Kamat – Web Developer, Designer, and Tech Enthusiast." />
+    <meta name="twitter:image" content="https://my-portfolio-inky-pi-70.vercel.app/Image/og_image_new.png" />
+    <meta name="twitter:image:alt"
+        content="Portfolio preview of Pankaj Kumar Kamat - Web Developer, Designer, and Tech Enthusiast" />
+    <meta name="twitter:url" content="https://pankajkr.in/" /> -->
+
+    <!-- Theme Colors Browser + Mobile -->
+    <!-- dark navy -->
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="msapplication-TileColor" content="#0f172a" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- UNICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="Image/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="./Image/pankaj.png">
+
+</head>
+
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- --------------- HEADER --------------- -->
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Pankaj Kumar Kamat</p>
+                <span></span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#experience" class="nav-link">Experience</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#education" class="nav-link">Education</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#certifications" class="nav-link">Certifications</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <a href="./Pankaj-Ressume.pdf" class="btn nav-btn" target="_blank">Download Resume <i
+                        class="uil uil-file-alt"></i></a>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+    </div>
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+        <!-- -------------- FEATURED BOX ---------------- -->
+        <section class="featured-box" id="home">
+            <div class="featured-text">
+                <div class="featured-text-card">
+                    <span>Pankaj Kumar Kamat</span>
+                </div>
+                <div class="featured-name">
+                    <p>I'm <span class="typedText"></span></p>
+                </div>
+                <div class="featured-text-info">
+                    <p>Full Stack Developer with a passion for creating innovative
+                        and user-centric digital solutions.
+                    </p>
+                </div>
+                <div class="featured-text-btn">
+                    <a href="#contact" class="btn blue-btn">Hire Me</a>
+                    <a href="./Pankaj-Ressume.pdf" target="_blank" class="btn">Download Resume <i
+                            class="uil uil-file-alt"></i></a>
+                </div>
+            </div>
+            <div class="featured-image">
+                <div class="image">
+                    <img src="./Image/pankaj.png" alt="Pankaj Kumar Kamat - Web Developer Portfolio Profile Picture">
+                </div>
+            </div>
+            <div class="scroll-icon-box">
+                <a href="#about" class="scroll-btn">
+                    <i class="uil uil-mouse-alt"></i>
+                    <p>Scroll Down</p>
+                </a>
+            </div>
+
+        </section>
+
+        <section class="section" id="about">
+            <div class="top-header">
+                <h1>About Me</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="about-info">
+                        <h3>My introduction</h3>
+                        <p>As a B.Tech student with a strong passion for web development,
+                            I am constantly seeking opportunities to enhance my
+                            skills and contribute to the ever-evolving digital landscape.
+                            With a solid foundation in computer science and a focus on
+                            web development, I am eager to explore new technologies and apply
+                            them to create innovative and user-friendly websites.
+                        </p>
+                        <div class="about-btn">
+                            <a href="./Pankaj-Ressume.pdf" class="btn" target="_blank">Download Resume<i
+                                    class="uil uil-import"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Tools & Technologies</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>React.js</span>
+                            <span>Next.js</span>
+                            <span>Bootstrap</span>
+                            <span>Tailwind CSS</span>
+                            <span>Node.js</span>
+                            <span>Python</span>
+                            <span>Express.js</span>
+                            <span>MongoDB</span>
+                            <span>MySQL</span>
+                            <span>C</span>
+                            <span>C++</span>
+                            <span>VS Code</span>
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>Vercel</span>
+                            <span>Netlify</span>
+                            <span>Canva</span>
+                            <span>Figma</span>
+                            <span>Postman</span>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- -------------- PROJECTS SECTION ---------------- -->
+        <section class="section" id="projects">
+            <div class="top-header">
+                <h1>Projects</h1>
+                <span>Showcasing my latest work and innovations</span>
+            </div>
+
+            <div class="project-container">
+
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image coming-soon">
+                        <div class="coming-soon-content">
+                            <h3 style="color: aliceblue;">🚧 Coming Soon</h3>
+                            <p>Project Under Development</p>
+                        </div>
+
+                        <div class="project-overlay">
+                            <div class="project-buttons">
+                                <a href="#" class="btn-project live-btn disabled">
+                                    <i class="uil uil-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                                <a href="#" class="btn-project github-btn disabled">
+                                    <i class="uil uil-github-alt"></i>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="project-info">
+                        <h3>SmartHire</h3>
+                        <p>An AI-powered job portal that matches candidates with jobs based on skills and preferences.
+                        </p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Express</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image coming-soon">
+                        <div class="coming-soon-content">
+                            <h3 style="color: aliceblue;">🚧 Coming Soon</h3>
+                            <p>Project Under Development</p>
+                        </div>
+
+                        <div class="project-overlay">
+                            <div class="project-buttons">
+                                <a href="#" class="btn-project live-btn disabled">
+                                    <i class="uil uil-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                                <a href="#" class="btn-project github-btn disabled">
+                                    <i class="uil uil-github-alt"></i>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="project-info">
+                        <h3>MedTrack</h3>
+                        <p>A full-stack hospital management system for appointments, records, and prescriptions.</p>
+                        <div class="tech-stack">
+                            <span>Next.js</span>
+                            <span>Node.js</span>
+                            <span>PostgreSQL</span>
+                            <span>JWT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image coming-soon">
+                        <div class="coming-soon-content">
+                            <h3 style="color: aliceblue;">🚧 Coming Soon</h3>
+                            <p>Project Under Development</p>
+                        </div>
+
+                        <div class="project-overlay">
+                            <div class="project-buttons">
+                                <a href="#" class="btn-project live-btn disabled">
+                                    <i class="uil uil-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                                <a href="#" class="btn-project github-btn disabled">
+                                    <i class="uil uil-github-alt"></i>
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>CampusConnect</h3>
+                        <p>A social and event management platform designed for college students and clubs.</p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Socket.io</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- -------------- EXPERIENCE SECTION ---------------- -->
+        <section class="section" id="experience">
+            <div class="top-header">
+                <h1>Experience</h1>
+                <span>My professional journey and achievements</span>
+            </div>
+            <div class="experience-container">
+                <div class="experience-card">
+                    <div class="experience-icon">
+                        <i class="uil uil-server-network"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <h3>Backend Developer Intern</h3>
+                            <span class="company">FastSewa</span>
+                            <span class="duration">January 2026 - Present</span>
+                        </div>
+                        <p>
+                            Responsible for designing and maintaining robust server-side architecture and RESTful APIs.
+                            Focusing on optimizing database queries, ensuring high performance, and integrating
+                            secure authentication systems to support seamless user experiences.
+                        </p>
+                        <div class="experience-skills">
+                            <span>Node.js / Python</span>
+                            <span>REST APIs</span>
+                            <span>PostgreSQL / MongoDB</span>
+                            <span>Express.js</span>
+                            <span>System Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-icon">
+                        <i class="uil uil-chart-growth"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <h3>Flutter Developer Intern</h3>
+                            <span class="company">Sarva Suvidhaen Pvt. Ltd.</span>
+                            <span class="duration">December 2025 - January 2026</span>
+                        </div>
+                        <p>
+                            Executed comprehensive Flutter UI development and state management, building responsive and
+                            high-performance mobile in
+                            terfaces using Dart and Flutter widgets.Implemented API integration and local data handling,
+                            optimizing app performance
+                            and user experience through debugging,testing, and performance analysis tools (Flutter
+                            DevTools)
+                        </p>
+                        <div class="experience-skills">
+                            <span>Flutter UI Development</span>
+                            <span>State Management</span>
+                            <span>Dart Programming</span>
+                            <span>API Integration</span>
+                            <span>Performance Optimization</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="experience-icon">
+                        <i class="uil uil-laptop-cloud"></i>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <h3>Salesforce Developer Virtual Internship</h3>
+                            <span class="company">Salesforce</span>
+                            <span class="duration">june 2024</span>
+                        </div>
+                        <p>Completed virtual internship program focusing on Salesforce Fundamentals, Relationship &
+                            Process Automation, Types of Flows & Security, Apex, Testing & Debugging & Lightning Web
+                            Components (LWC) & API.
+                        </p>
+                        <div class="experience-skills">
+                            <span>Salesforce Fundamentals</span>
+                            <span>Relationship & Process Automation</span>
+                            <span>Types of Flows & Security</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- -------------- EDUCATION SECTION ---------------- -->
+        <section class="section" id="education">
+            <div class="top-header">
+                <h1>Education</h1>
+                <span>My academic background and qualifications</span>
+            </div>
+            <div class="education-container">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="uil uil-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-header">
+                            <h3>Bachelor of Technology</h3>
+                            <span class="institution">Government Engineering College, Jamui</span>
+                            <span class="duration">2022 - 2026</span>
+                        </div>
+                        <p>Currently pursuing B.Tech in Computer Science & Engineering (AI & ML) with focus on software
+                            development, data structures, algorithms, and modern web technologies.</p>
+                        <div class="education-subjects">
+                            <span>Data Structures & Algorithms</span>
+                            <span>Operating System</span>
+                            <span>Database Management Systems</span>
+                            <span>Computer Network</span>
+                            <span>Computer Organization & Architecture</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="uil uil-book-alt"></i>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-header">
+                            <h3>Intermediate - Science Stream</h3>
+                            <span class="institution">N.D.J College</span>
+                            <span class="duration">2020 - 2022</span>
+                        </div>
+                        <p>Completed 12th grade with Physics, Chemistry & Mathematics. Built
+                            strong foundation in analytical thinking and problem-solving.</p>
+                        <div class="education-subjects">
+                            <span>Mathematics</span>
+                            <span>Physics</span>
+                            <span>Chemistry</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="uil uil-award"></i>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-header">
+                            <h3>Matriculation</h3>
+                            <span class="institution">M.R.G High School</span>
+                            <span class="duration">2019 - 2020</span>
+                        </div>
+                        <p>Completed secondary education with excellent academic performance. Developed strong
+                            fundamentals in core subjects and discovered passion for technology and programming.</p>
+                        <div class="education-subjects">
+                            <span>Mathematics</span>
+                            <span>Science</span>
+                            <span>Social Studies</span>
+                            <span>Hindi</span>
+                            <span>Sanskrit</span>
+                            <span>English</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- -------------- CERTIFICATIONS SECTION ---------------- -->
+        <section class="section" id="certifications">
+            <div class="top-header">
+                <h1>Certifications</h1>
+                <span>Professional certifications and achievements</span>
+            </div>
+            <!-- ====================Certificate Card Start====================== -->
+            <div class="certifications-carousel">
+                <!-- Left Navigation Button -->
+                <button class="carousel-btn prev-btn" id="prevBtn">
+                    <i class="uil uil-angle-left"></i>
+                </button>
+
+                <!-- The scrollable container -->
+                <div class="certificates-container">
+                    <div class="certificates-track" id="certificatesTrack">
+                        <!-- Certificate Cards will be dynamically populated here by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Right Navigation Button -->
+                <button class="carousel-btn next-btn" id="nextBtn">
+                    <i class="uil uil-angle-right"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- -------------- CONTACT BOX ---------------- -->
+
+        <section class="section" id="contact">
+            <div class="top-header">
+                <h1>Get in Touch</h1>
+                <span>Let's work together on your next project</span>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-content">
+                    <div class="contact-info-card">
+                        <div class="contact-header">
+                            <h2>Contact Information</h2>
+                            <p>Feel free to reach out to me for any inquiries or collaboration opportunities.</p>
+                        </div>
+
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="uil uil-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Email</h4>
+                                    <p>pankajbihar.s2@gmail.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="uil uil-phone"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Phone</h4>
+                                    <p>+91 6204578246</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="uil uil-map-marker"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Location</h4>
+                                    <p>Jamui, Bihar, India</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-social">
+                            <h4>Follow Me</h4>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/pankajkumarkamat/" target="_blank"
+                                    class="social-link">
+                                    <i class="uil uil-linkedin-alt"></i>
+                                </a>
+                                <a href="https://github.com/pankajkrkamat" target="_blank" class="social-link">
+                                    <i class="uil uil-github-alt"></i>
+                                </a>
+                                <a href="#" target="_blank" class="social-link">
+                                    <i class="uil uil-instagram"></i>
+                                </a>
+                                <a href="#" target="_blank" class="social-link">
+                                    <i class="uil uil-facebook"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-card">
+                        <div class="form-header">
+                            <h3>Send Message</h3>
+                            <p>Have a project in mind? Let's discuss it!</p>
+                        </div>
+
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="Your full name"
+                                    required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" class="form-input"
+                                    placeholder="your.email@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" class="form-textarea"
+                                    placeholder="Tell me about your project..." rows="5" required></textarea>
+                            </div>
+
+                            <button type="submit" class="form-submit-btn">
+                                <span>Send Message</span>
+                                <i class="uil uil-message"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Pankaj Kumar Kamat </p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#experience">Experience</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#education">Education</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#certifications">Certifications</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon"><a href="#" target="_blank"><i class="uil uil-instagram"></i></a>
+            </div>
+            <div class="icon"><a href="https://www.linkedin.com/in/pankajkumarkamat/" target="_blank"><i
+                        class="uil uil-linkedin-alt"></i></a></div>
+            <div class="icon"><a href="#" target="_blank"><i class="uil uil-facebook"></i></a>
+            </div>
+            <div class="icon"><a href="https://github.com/pankajkrkamat" target="_blank"><i
+                        class="uil uil-github-alt"></i></a></div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Pankaj Kumar Kamat</a> - All rights
+                reserved
+            </p>
+        </div>
+    </footer>
+
+    <!-- ----- Contact Form ----- -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="./script.js"></script>
+</body>
+
+</htm
