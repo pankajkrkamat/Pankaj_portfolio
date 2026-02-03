@@ -37,16 +37,13 @@ My-Portfolio/
 
 ## Live Demo
 
-Visit the live website: [https://www.anikeshroy.xyz/](https://www.anikeshroy.xyz/)
+Visit the live website: [https://www.pankajkr.in/](https://www.pankajkr.in/)
 
 ## Contact
 
 Feel free to reach out for collaborations or opportunities:
 
-- **Email**: anikeshroy62040@gmail.com
-- **LinkedIn**: [Anikesh Roy](https://www.linkedin.com/in/anikeshroy/)
-- **GitHub**: [Anikesh Roy](https://github.com/anikeshroyy)
-- **Portfolio**: [Live Website](https://www.anikeshroy.xyz/)
+- **Email**: pankajkumarkamat620@gmail.com
 
 ## License
 
