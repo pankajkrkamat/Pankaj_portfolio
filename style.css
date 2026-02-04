@@ -121,9 +121,10 @@ nav {
     position: fixed;
     display: flex;
     justify-content: space-between;
+    align-items: center; /* Add this to vertically center everything */
     width: 100%;
     height: 90px;
-    line-height: 90px;
+    /* line-height: 90px;  <-- Remove or comment this out; it causes clipping */
     background: var(--body-color);
     padding-inline: 9vw;
     transition: .3s;
@@ -137,6 +138,7 @@ nav {
 .nav-name {
     font-size: 28px;
     font-weight: 700;
+    white-space: nowrap; /* Prevents the name from breaking into two lines */
     color: var(--text-color-primary);
     background: var(--gradient-primary);
     -webkit-background-clip: text;
@@ -155,6 +157,7 @@ nav {
 .nav-menu,
 .nav_menu_list {
     display: flex;
+    align-items: center;
 }
 
 .nav-menu .nav_list {
@@ -212,6 +215,20 @@ nav {
     height: 6px;
     background: var(--primary-color);
     border-radius: 50%;
+    display: none;
+}
+
+.nav-button {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0; /* Prevents the button from squishing */
+}
+
+.nav-btn {
+    white-space: nowrap; /* Ensures "Download Resume" stays on one line */
+    padding: 10px 20px;   /* Slightly reduced padding for better fit */
+    display: flex;
+    align-items: center;
 }
 
 
